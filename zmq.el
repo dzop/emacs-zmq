@@ -689,8 +689,6 @@ Emacs process."
                     (recursive-edit)))))))
       (user-error "Modules are not supported"))))
 
-(zmq-load)
-
 (provide 'zmq)
 
 ;; Local Variables:
